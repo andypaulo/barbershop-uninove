@@ -7,6 +7,6 @@ Equipe:
     José Rafael -
     João Marcelo -
     Marcos Henrique -
-    Lucas Alberto - 
+    Lucas Alberto - 424108986
     Larisson -
     João Pedro -
