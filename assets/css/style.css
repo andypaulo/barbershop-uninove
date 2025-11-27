@@ -6,8 +6,8 @@
 }
 
 body {
-    background: #111;
-    color: white;
+    background: #0d0d0d;
+    color: #fff;
 }
 
 .navbar {
@@ -104,7 +104,6 @@ body {
         padding: 18px 25px;
     }
 }
-
 .footer {
     background: #0f0f0f;
     color: #d7d7d7;
@@ -163,7 +162,7 @@ body {
 
 .instagram-box i {
     font-size: 22px;
-    color: #fff;  /* ou outra cor */
+    color: #fff; 
 }
 
 .instagram-box p {
