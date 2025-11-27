@@ -8,5 +8,5 @@ Equipe:
     João Marcelo -
     Marcos Henrique -
     Lucas Alberto - 424108986
-    Larisson -
+    Larisson - 424104095
     João Pedro -
