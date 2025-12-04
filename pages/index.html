@@ -5,8 +5,193 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
 </head>
 <body>
-    
+    <header>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="../pages/index.html">
+                <img src="../assets/img/Logo Barbearia Lifestyle.jpeg" alt="BLS Logo">
+            </a>
+            <span class="logo-text">Barbearia <strong>Life Style</strong></span>
+        </div>
+
+        <button class="mobile-btn" id="mobile-btn">&#9776;</button>
+
+        <ul class="nav-links" id="nav-links">
+            <li><a href="../pages/index.html" class="active">Início</a></li>
+            <li><a href="../pages/contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    </header>
+      <section class="hero">
+    <div class="hero-content">
+      <h1>Barbearia <span class="highlight">Life Style</span></h1>
+      <p>Onde estilo encontra tradição. Experiência profissional que transforma seu visual.</p>
+
+      <div class="buttons">
+        <a href="../pages/contato.html" class="btn btn-primary">Agendar Horário</a>
+        <a href="#" class="btn btn-outline" id="openServices">Ver Serviços</a>
+      </div>
+    </div>
+  </section>
+    <section id="principios">
+        <h2>Nossos <span>Princípios</span></h2>
+        <div class="principios-cards">
+            <div class="principio-card">
+                <div class="principio-icon">
+                    <i data-lucide="target"></i>
+                </div>
+                <h3>Missão</h3>
+                <p>
+Entregar um atendimento personalizado que combine técnica, estilo e bem-estar, oferecendo cortes e cuidados masculinos de alta qualidade em um ambiente moderno, acolhedor e cheio de personalidade. Nosso objetivo é fazer cada cliente sair renovado — por dentro e por fora.
+                </p>
+            </div>
+
+            <div class="principio-card">
+                <div class="principio-icon">
+                    <i data-lucide="eye"></i>
+                </div>
+                <h3>Visão</h3>
+                <p>
+Tornar-nos a barbearia preferida da região, reconhecida pela excelência nos serviços, pela constante evolução profissional e por proporcionar uma experiência completa, onde tradição e inovação caminham juntas.
+                </p>
+            </div>
+
+            <div class="principio-card">
+                <div class="principio-icon">
+                    <i data-lucide="heart"></i>
+                </div>
+                <h3>Valores</h3>
+                <p>
+                <strong>Respeito ao Cliente:</strong> Cada pessoa é tratada com atenção, cuidado e profissionalismo.<p/>
+                <strong>Qualidade em Primeiro Lugar:</strong> Trabalhamos com dedicação para garantir resultados impecáveis.<p/>
+                <strong>Evolução Contínua:</strong> Buscamos constantemente novas técnicas, tendências e aprimoramento.<p/>
+                <strong>Ambiente Acolhedor:</strong> Um espaço confortável, seguro e descontraído para todos.<p/>
+                </p>
+            </div>
+        </div>
+    </section>
+    <main>
+        <section class="team-section">
+            <div class="container">
+                <h1 class="main-title">
+                    <span class="title-regular">Nossa</span>
+                    <span class="title-bold">Equipe</span>
+                </h1>
+                <p class="subtitle">Profissionais qualificados prontos para cuidar do seu visual</p>
+                
+                <div class="team-cards">
+                    <div class="card">
+                        <div class="card-icon">
+                            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="30" cy="22" r="10" stroke="#d4af37" stroke-width="2.5" fill="none"/>
+                                <path d="M15 45 C15 35, 20 32, 30 32 C40 32, 45 35, 45 45" stroke="#d4af37" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="card-title">Lucas</h3>
+                        <p class="card-specialty">Lucas é apaixonado pelo universo da barbearia e domina com excelência cortes degradê, mid fade, low fade, desenhados e estilos contemporâneos.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon">
+                            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="30" cy="22" r="10" stroke="#d4af37" stroke-width="2.5" fill="none"/>
+                                <path d="M15 45 C15 35, 20 32, 30 32 C40 32, 45 35, 45 45" stroke="#d4af37" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="card-title">Thiago</h3>
+                        <p class="card-specialty">Thiago domina com excelência os cortes tradicionais, como social, executivo, militar e estilos mais alinhados e simétricos. Ele preza pela precisão, pela limpeza das linhas e pela manutenção do estilo clássico, sempre garantindo um visual elegante, organizado e atemporal.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+    <div class="footer-content">
+        <div class="footer-box">
+            <h3>Barbearia Life Style</h3>
+            <p>Estilo, qualidade e atenção em cada detalhe. Nosso objetivo é oferecer o melhor cuidado para o seu visual.</p>
+        </div>
+        <div class="footer-box">
+            <h3>Contato</h3>
+            <p>
+                <i class="fa-brands fa-whatsapp"></i>
+                Lucas — (11) 97776-5987
+            </p>
+            <p>
+                <i class="fa-brands fa-whatsapp""></i>
+                Thiago — (11) 95912-8063
+            </p>
+            <p><i class="fa-brands fa-instagram"></i> @barbearia_lifestyle_1</p>
+        </div>
+        <div class="footer-box">
+            <h3>Localização</h3>
+            <p>Estrada Sargento Acácio dos Reis, nº 51<br>Souza Campos, Itaquaquecetuba</p>
+        </div>
+    </div>
+    <div class="footer-line"></div>
+    <p class="footer-copy">© 2025 Barbearia Life Style. Todos os direitos reservados.</p>
+    <p class="footer-copy">CNPJ: 36.332.051/0001-68</p>
+</footer>
+    <div id="servicesModal" class="modal">
+    <div class="modal-content">
+    <span id="closeModal" class="close">&times;</span>
+    <main class="sheet">
+    <h1 class="page-top-title">Nossos Serviços</h1>
+    <section class="sheet-body">
+      <div class="table">
+        <ul class="rows">
+          <li class="row"><span class="name">Corte adulto</span><span class="value">40,00</span></li>
+          <li class="row"><span class="name">Corte + penteado</span><span class="value">60,00</span></li>
+          <li class="row"><span class="name">Corte de criança</span><span class="value">35,00</span></li>
+          <li class="row"><span class="name">Barba</span><span class="value">20,00</span></li>
+          <li class="row"><span class="name">Pezinho</span><span class="value">15,00</span></li>
+          <li class="row"><span class="name">Sobrancelha</span><span class="value">10,00</span></li>
+          <li class="row"><span class="name">Penteado</span><span class="value">25,00</span></li>
+          <li class="row"><span class="name">Bigode</span><span class="value">10,00</span></li>
+        </ul>
+
+        <h2 class="chem-title">Química</h2>
+
+        <ul class="rows">
+          <li class="row"><span class="name">Alisante</span><span class="value">25,00</span></li>
+          <li class="row"><span class="name">Pigmentação</span><span class="value">30,00</span></li>
+          <li class="row"><span class="name">Luzes</span><span class="value">60,00</span></li>
+          <li class="row"><span class="name">Nevou</span><span class="value">70,00</span></li>
+          <li class="row"><span class="name">Botox</span><span class="value">70,00</span></li>
+          <li class="row"><span class="name">Progressiva</span><span class="value">90,00</span></li>
+        </ul>
+      </div>
+    </section>
+    <footer class="sheet-foot">
+      <p>Valores sujeitos a alteração. Consulte no atendimento.</p>
+    </footer>
+  </main>
+<script>
+        document.getElementById("mobile-btn").onclick = () => {
+        document.getElementById("nav-links").classList.toggle("show");
+    };
+    lucide.createIcons();
+    const openBtn = document.getElementById("openServices");
+    const modal = document.getElementById("servicesModal");
+    const closeBtn = document.getElementById("closeModal");
+
+    openBtn.addEventListener("click", (e) => {
+        e.preventDefault();
+        modal.style.display = "flex";
+    });
+
+    closeBtn.addEventListener("click", () => {
+        modal.style.display = "none";
+    });
+
+    window.addEventListener("click", (e) => {
+        if (e.target === modal) {
+            modal.style.display = "none";
+        }
+  });
+</script>
 </body>
 </html>
